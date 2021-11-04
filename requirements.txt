@@ -1,7 +1,7 @@
-keras==2.6.0
-Keras-Preprocessing==1.1.2
 numpy==1.19.5
 opencv-python==4.5.4.58
+keras==2.6.0
+Keras-Preprocessing==1.1.2
 streamlit==1.1.0
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
