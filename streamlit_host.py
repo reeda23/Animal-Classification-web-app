@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2, preprocess_input as mobilenet_v2_preprocess_input
 
-model = tf.keras.models.load_model("C:\\Users\\reeda\\Documents\\animal_classification\\mdl_wts.hdf5")
+model = tf.keras.models.load_model("reeda23/Animal-Classification-web-app/mdl_wts.hdf5")
 
 uploaded_file = st.file_uploader("Chosse a image file", type="jpg")
 
